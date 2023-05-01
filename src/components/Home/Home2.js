@@ -1,3 +1,9 @@
+/**
+ * The function Home2 returns a React component that displays information about a full stack developer
+ * and their social media links.
+ * @returns The Home2 component is being returned, which contains JSX code for the about section of a
+ * personal website.
+ */
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import photo from "../../Assets/aaditya.png";

@@ -1,3 +1,10 @@
+/**
+ * The function returns a React component that displays contact information with icons for LinkedIn,
+ * GitHub, email, and phone.
+ * @returns The AboutCard component is being returned, which is a Card component from the
+ * react-bootstrap library containing contact information and icons for the developer's LinkedIn,
+ * GitHub, email, and phone number.
+ */
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";

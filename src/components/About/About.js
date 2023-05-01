@@ -1,3 +1,9 @@
+/**
+ * The function renders the About section of a website, including information about the user's
+ * professional skillset, tools they use, and a Github component.
+ * @returns The `About` component is being returned, which contains the `Techstack`, `Toolstack`, and
+ * `Github` components wrapped in a `Container` and a `Particle` component.
+ */
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";

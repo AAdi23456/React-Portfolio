@@ -1,3 +1,9 @@
+/**
+ * The Particle function returns a React component that renders a particle animation using the
+ * react-tsparticles library.
+ * @returns The Particle component is being returned, which renders a Particles component from the
+ * react-tsparticles library with a set of parameters for the particle animation.
+ */
 import React from "react";
 import Particles from "react-tsparticles";
 

@@ -1,3 +1,9 @@
+/**
+ * The Home function returns a React component that renders the home section of a website, including a
+ * header with a greeting, name, and typing animation, as well as an image.
+ * @returns The `Home` component is being returned, which contains JSX elements and components from
+ * React Bootstrap and custom components like `Particle`, `Home2`, and `Type`.
+ */
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";

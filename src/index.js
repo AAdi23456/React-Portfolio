@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+/* This code is rendering the React component `App` inside the HTML element with the ID of `root`. The
+`React.StrictMode` component is used to highlight potential problems in the code and is not
+necessary for rendering the component. */
 ReactDOM.render(
   <React.StrictMode>
     <App />

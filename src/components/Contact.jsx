@@ -1,3 +1,7 @@
+/* This is a React component called `Contact` that renders a section of a webpage with a title and an
+image. It imports necessary components from the React Bootstrap library and an image file. The
+`return` statement contains JSX code that defines the layout and content of the section. The
+`Contact` component is exported to be used in other parts of the application. */
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import AboutCard from "./About/AboutCard";

@@ -1,3 +1,5 @@
+/* This is a test written in JavaScript using the Jest testing framework and the
+`@testing-library/react` library. */
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

@@ -1,3 +1,8 @@
+/**
+ * The function returns a row of icons representing various tools and technologies.
+ * @returns The `Toolstack` component is being returned, which renders a row of icons representing
+ * various tools and technologies.
+ */
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {

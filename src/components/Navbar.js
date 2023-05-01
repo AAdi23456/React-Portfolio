@@ -1,3 +1,8 @@
+/**
+ * This is a React component that renders a responsive navbar with links to different sections of a
+ * website and a resume download button.
+ * @returns The `NavBar` component is being returned.
+ */
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";

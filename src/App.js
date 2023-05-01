@@ -10,6 +10,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./components/Main";
 
+/**
+ * This is a React function that renders a website with a preloader and various components.
+ * @returns The `App` component is being returned, which contains a `Router` component, a `Preloader`
+ * component, a `div` element with a class of "App" and an id of either "no-scroll" or "scroll"
+ * depending on the value of the `load` state, and three other components (`Navbar`, `Main`, and
+ * `Footer`).
+ */
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -26,7 +33,7 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <Main/>
+        <Main />
         <Footer />
       </div>
     </Router>

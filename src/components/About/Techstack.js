@@ -1,3 +1,10 @@
+/**
+ * The function exports a React component that displays a row of icons representing various
+ * technologies used in web development.
+ * @returns The `Techstack` component is being returned, which renders a `Row` component from
+ * `react-bootstrap` containing several `Col` components with icons from various libraries such as
+ * `react-icons/di` and `react-icons/si`.
+ */
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 // import { CgHTML } from "react-icons/cg";

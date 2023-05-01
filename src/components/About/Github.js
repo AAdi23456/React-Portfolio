@@ -1,3 +1,8 @@
+/**
+ * The function displays a GitHub calendar of the user's coding activity.
+ * @returns The `Github` component is being returned, which renders a `GitHubCalendar` component
+ * displaying the user's GitHub activity calendar.
+ */
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
